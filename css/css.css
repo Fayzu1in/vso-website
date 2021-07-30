@@ -1,4 +1,6 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Mulish:wght@400;600;800;900&display=swap");
+
+.container-fluid {
   background: linear-gradient(
     180deg,
     rgba(7, 115, 250, 0.7) 0%,
@@ -50,10 +52,12 @@ li {
   height: 100px;
 }
 .main-name > h1 {
+  /* font-family: 'DM Sans', sans-serif; */
+  font-family: "Mulish", sans-serif;
   color: white;
   font-size: 50px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 900;
   padding-top: 121px;
 }
 .main-name > p {
@@ -111,9 +115,41 @@ li {
   margin: 0 auto;
 }
 .text {
-  width: 330px;
+  width: 350px;
   display: flex;
 }
 .text > img {
   padding-right: 20px;
+}
+.text > p > a {
+  color: black;
+}
+
+.contant-name > h1 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 31px;
+  padding-bottom: 20px;
+}
+.subtitle {
+  width: 689px;
+  height: 56px;
+
+  font-family: Mulish;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 21px;
+  color: #1f3e4f;
+  padding-bottom: 63px;
+}
+.table {
+  text-align: center;
+  width: 899px;
+  margin: 0 auto;
+  margin-top: 63px;
 }
